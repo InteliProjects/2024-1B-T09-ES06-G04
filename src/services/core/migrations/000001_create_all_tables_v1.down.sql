@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS connections;
+DROP TABLE IF EXISTS ratings;
+DROP TABLE IF EXISTS projects;
+DROP TABLE IF EXISTS userConnections;
+DROP TABLE IF EXISTS users;

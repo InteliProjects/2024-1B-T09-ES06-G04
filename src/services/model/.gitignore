@@ -1,0 +1,29 @@
+# Environment files
+__pycache__/
+*.pyc
+
+# IDE and virtual env files
+.idea/
+.vscode/
+.venv/
+myenv/
+env/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Test database files
+.pytest_cache/
+test.db
+
+# Temporary IDE/Editor files
+*.swp
+*.swo
+
+.env

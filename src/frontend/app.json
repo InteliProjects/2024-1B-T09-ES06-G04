@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CLI",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.raphaelaferraz.frontend"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "099fe579-19e2-4684-8bf0-be7bf2cd4731"
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
